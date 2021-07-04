@@ -45,7 +45,12 @@ function App() {
     setUsername(user);
   }, []);
   return (
+    
     <div className="App">
+      <div className="welcome_img">
+      <img src="https://www.searchpng.com/wp-content/uploads/2019/02/Message-Chat-Icon-PNG-Image-715x657.png" width="80px" height="60px"></img>
+      <h2>Welcome {username}</h2>
+      </div>
       <form className="app_form" >
         <FormControl className="app_formControl">
           <Input className="app_input"

@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  
 }
 
 code {
@@ -16,6 +17,8 @@ code {
   margin:10px;
   width:fit-content;
   padding: 5px;
+  position: relative;
+ 
   
   
 }
@@ -23,6 +26,7 @@ code {
   margin-left:auto;
   color: white;
   text-align: left !important;
+  bottom: 130px;
 }
 
 .message_userCard{
@@ -39,7 +43,7 @@ code {
   padding: 0px;
   width: 100%;
   /* margin: 15px; */
-  background:#9CA3AF;
+  background:#F3F4F6;
   z-index: 1;
 }
 
@@ -55,4 +59,9 @@ code {
 
 .app_iconButton{
   flex: 0;
+}
+
+.welcome_img{
+
+  height: 250px;
 }
