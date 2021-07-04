@@ -11,3 +11,48 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.message{
+  margin:10px;
+  width:fit-content;
+  padding: 5px;
+  
+  
+}
+.message_user{
+  margin-left:auto;
+  color: white;
+  text-align: left !important;
+}
+
+.message_userCard{
+  background-color:#2563EB !important;
+  color: white !important;
+}
+
+.message_guestCard{
+  background-color:#E5E7EB !important;
+}
+.app_form{
+  position:fixed;
+  bottom: 0;
+  padding: 0px;
+  width: 100%;
+  /* margin: 15px; */
+  background:#9CA3AF;
+  z-index: 1;
+}
+
+
+.app_formControl{
+  display: flex !important;
+  flex-direction: row !important;
+}
+
+.app_input{
+  flex:1;
+}
+
+.app_iconButton{
+  flex: 0;
+}
