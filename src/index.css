@@ -18,15 +18,15 @@ code {
   width:fit-content;
   padding: 5px;
   position: relative;
- 
-  
+  bottom: 130px;
+  text-align: left;
   
 }
 .message_user{
   margin-left:auto;
   color: white;
   text-align: left !important;
-  bottom: 130px;
+ 
 }
 
 .message_userCard{
